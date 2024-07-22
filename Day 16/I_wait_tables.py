@@ -1,8 +1,8 @@
 import pretty_tables
 
-#Manejo basico de librerias , practica de documentacion y de librerias 
+#Manejo basico de librerias , practica de documentacion y de librerias PYPI
 colors = [ pretty_tables.Colors.red
-          , pretty_tables.Colors.green, 
+          , pretty_tables.Colors.green,
           pretty_tables.Colors.cyan
           ,pretty_tables.Colors.bold]
 
