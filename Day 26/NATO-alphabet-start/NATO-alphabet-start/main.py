@@ -15,4 +15,6 @@ NATO_INPUT = { letter : code for (letter,code) in NATO_dict.items() if letter in
 for letter in Word:
     print(f"{letter} as in {NATO_dict[letter]}")
 
+#Checar dictionary comprehension y data frames
+
 
