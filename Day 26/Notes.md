@@ -3,7 +3,7 @@
 Very unique to python, makes the code easier to read and shorter
 Las list comprehensions y dictionary comprehensions en Python son maneras concisas y elegantes de crear listas y diccionarios a partir de iterables, en lugar de usar bucles convencionales como for o funciones como map. Se utilizan para simplificar y hacer más legible el código cuando deseas construir nuevas listas o diccionarios en una sola línea.
 What is it? 
-
+>
 
 _______________________________________________________________
 BRIEF EXAMPLE:
