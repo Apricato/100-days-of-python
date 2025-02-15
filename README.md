@@ -12,7 +12,7 @@ This repository is a structured collection of Python scripts and projects that a
 ---
 
 ## 📚 Course Breakdown
-The course follows a structured approach, covering foundational to advanced Python topics. Here’s an outline of some key areas covered:
+
 
 ### **📖 Days 1-10**
 - Python Basics, Data Types, Control Flow, Functions
