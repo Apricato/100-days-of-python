@@ -1,6 +1,6 @@
 
 
-## 🐍 100 Days of Python - Angela Yu's Course 🐍
+## 🐍 100 Days of Python 🐍
 
 Welcome to the **100 Days of Python** repository! This project contains my solutions and notes from following Angela Yu's *100 Days of Code - python* course.
 
