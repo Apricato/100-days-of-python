@@ -1,6 +1,6 @@
 
 
-## 🐍 100 Days of Python - Angela Yu's Course 🐍
+## 🐍 100 Days of Python 🐍
 
 Welcome to the **100 Days of Python** repository! This project contains my solutions and notes from following Angela Yu's *100 Days of Code - python* course.
 
@@ -12,7 +12,7 @@ This repository is a structured collection of Python scripts and projects that a
 ---
 
 ## 📚 Course Breakdown
-The course follows a structured approach, covering foundational to advanced Python topics. Here’s an outline of some key areas covered:
+
 
 ### **📖 Days 1-10**
 - Python Basics, Data Types, Control Flow, Functions
@@ -67,40 +67,6 @@ Each folder contains:
 To run the programs in this repository, you’ll need:
 - Python 3.x installed on your system
 - Required libraries (some projects may require additional installations via `pip`)
-
-
-## 🚀 How to Use
-
-1. **Clone the repository:**
-   ```markdown
-   ```bash
-   git clone https://github.com/yourusername/100-days-of-python.git
-   ```
-   ```
-2. **Navigate to the desired day:**
-   ```markdown
-   ```bash
-   cd "Day 7"
-   ```
-   ```
-3. **Run the Python script:**
-   ```markdown
-   ```bash
-   python main.py
-   ```
-   ```
-
----
-
-## 🤝 Contributing
-
-While this is a personal learning journey, feel free to explore and provide suggestions. If you find any mistakes or want to discuss any topic, feel free to open an issue or reach out!
-
----
-
-## 🌟 Acknowledgments
-
-- Huge thanks to Dr. Angela Yu for creating this fantastic course.
 
 
 
