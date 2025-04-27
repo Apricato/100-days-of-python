@@ -27,8 +27,8 @@ def fetch_word():
     if canvas.itemcget(current_image, "image") == str(flipped_card):
      canvas.itemconfig(current_image, image = unflipped_card)
 
-    canvas.itemconfig(language,text = "French")
-    canvas.itemconfig(word,text=current_card["French"])
+    canvas.itemconfig(language,text = "French", fill ="black")
+    canvas.itemconfig(word,text=current_card["French"], fill ="black")
 
 
 def wrong_guess():
@@ -42,8 +42,8 @@ def wrong_guess():
 
     current_card = queue[0]
     canvas.itemconfig(current_image, image = flipped_card)
-    canvas.itemconfig(language, text ="English")
-    canvas.itemconfig(word,text=current_card["English"])
+    canvas.itemconfig(language, text ="English", fill ="white")
+    canvas.itemconfig(word,text=current_card["English"], fill ="white")
 
     card = current_card
     queue.popleft()
@@ -83,8 +83,8 @@ flipped_card= ImageTk.PhotoImage(flipped_card)
 
 current_image = canvas.create_image(500,350, image=unflipped_card)
 
-language= canvas.create_text( 500, 250, text= 'Title', font= ("Ariel", 40, "italic"))
-word= canvas.create_text(500, 363, text= 'word', font= ("Ariel", 40, "italic"))
+language= canvas.create_text( 500, 250, text= '', font= ("Ariel", 40, "italic"))
+word= canvas.create_text(500, 363, text= '', font= ("Ariel", 40, "italic"))
 
 
 canvas.grid(row=0, column=0, columnspan=2)
