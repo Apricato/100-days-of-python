@@ -66,12 +66,6 @@ def countdown(seconds):
             marks += "✅"
         check_pic.config(text = marks)
 
-
-
-
-
-
-
 # ---------------------------- UI SETUP ------------------------------- 
 
 window = Tk()

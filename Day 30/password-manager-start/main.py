@@ -41,12 +41,6 @@ def search():
             passwordd = website['password']
             messagebox.showinfo(title="Yes, we've found a match", message=f"{website},  {emaill}, {passwordd}")
 
-
-        
-        
-    
-
-
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 
 #Note there is no need to import the json lib cause it is by default on python
@@ -93,7 +87,7 @@ window.title("Password Manager")
 window.config(padx=50, pady=50)
 
 canvas = tk.Canvas(width=200, height=200)
-logo = tk.PhotoImagelogo = tk.PhotoImage(file="Day 29/password-manager-start/logo.png")
+logo = tk.PhotoImage(file="Day 29/password-manager-start/logo.png")
 
 
 canvas.create_image(100 ,100 ,image=logo)
