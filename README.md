@@ -6,12 +6,12 @@ Welcome to the **100 Days of Python** repository! This project contains my solut
 
 ---
 
-## 📌 About This Repository
+##  About This Repository
 This repository is a structured collection of Python scripts and projects that align with the daily lessons and exercises provided in the course. It serves as both a personal learning journal and a resource for anyone who wants to see practical implementations of the concepts taught.
 
 ---
 
-## 📚 Course Breakdown
+##  Course Breakdown
 
 
 ### **📖 Days 1-10**
@@ -46,7 +46,7 @@ This repository is a structured collection of Python scripts and projects that a
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```markdown
 100-days-of-python/
