@@ -13,11 +13,7 @@ import smtplib
 import pandas as pd
 import datetime
 import random 
-<<<<<<< HEAD
-import os
-=======
 
->>>>>>> 8583260 (Bloody Day 32)
 
 my_email = "testingzhang521@gmail.com"
 password= "akae lqjt apuv fkvb"
@@ -34,8 +30,16 @@ letter_3_path = os.path.join(base_dir, "letter_templates", "letter_3.txt")
 with open(letter_1_path) as letter_one, open(letter_2_path) as letter_two, open(letter_3_path) as letter_three:
     letters = letter_one.read(), letter_two.read(), letter_three.read()
 =======
-with open ( "Day 32/birthday-wisher-extrahard-start/letter_templates/letter_1.txt")  as letter_one, open ("Day 32/birthday-wisher-extrahard-start/letter_templates/letter_2.txt") as letter_two, open("Day 32/birthday-wisher-extrahard-start/letter_templates/letter_3.txt") as letter_three: 
-        letters = letter_one.read(), letter_two.read(), letter_three.read()
+
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+
+letter_1_path = os.path.join(base_dir, "letter_templates", "letter_1.txt")
+letter_2_path = os.path.join(base_dir, "letter_templates", "letter_2.txt")
+letter_3_path = os.path.join(base_dir, "letter_templates", "letter_3.txt")
+
+with open(letter_1_path) as letter_one, open(letter_2_path) as letter_two, open(letter_3_path) as letter_three:
+    letters = letter_one.read(), letter_two.read(), letter_three.read()
 >>>>>>> 8583260 (Bloody Day 32)
 
 current_date = datetime.datetime.now()
@@ -48,10 +52,11 @@ birthdays_csv_path = os.path.join(base_dir, "birthdays.csv")
 
 df = pd.read_csv(birthdays_csv_path)  # Use the dynamically constructed path
 =======
-print (today )
 
-df = pd.read_csv(r"Day 32\birthday-wisher-extrahard-start\birthdays.csv")
-print (df)
+
+birthdays_csv_path = os.path.join(base_dir, "birthdays.csv")
+
+df = pd.read_csv(birthdays_csv_path)  # Use the dynamically constructed path
 >>>>>>> 8583260 (Bloody Day 32)
 
 birthdays = [ {'name': row['name'], 'email': row['email']}  for index, row in df.iterrows() if (row['month'], row['day']) == today]
@@ -73,8 +78,8 @@ for person in birthdays :
 
 
 =======
-        
-        
+
+
 >>>>>>> 8583260 (Bloody Day 32)
 
 
