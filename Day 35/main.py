@@ -7,7 +7,9 @@ import os
 
 OWM=  os.environ.get("API") 
 api_key = os.environ.get("API_KEY") 
-account_sid = os.environ.get("") 
+
+account_sid = os.environ.get("SID") 
+
 auth_token = os.environ.get("AUTH_TOKEN") 
 
 client = Client(account_sid, auth_token)
